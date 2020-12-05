@@ -5,7 +5,7 @@
  */
 package Controler;
 import View.Add_edit_Delete_DocGia_View;
-import View.QLMuonTra;
+import View.QLMuonTraView;
 import View.QLSach;
 /**
  *
@@ -18,7 +18,7 @@ public class App {
      */
     public static void main(String[] args) {
        Add_edit_Delete_DocGia_View search= new Add_edit_Delete_DocGia_View();
-       QLMuonTra qlmt= new QLMuonTra();
+       QLMuonTraView qlmt= new QLMuonTraView();
        QLSach qls= new QLSach();
        qls.setVisible(true);
     }
